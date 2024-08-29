@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sundanese:wght@400;700&family=Noto+Sans+TC:wght@900&family=Oswald:wght@700&family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+
+    <title>RPS</title>
+</head>
+<body>
+    <h1>Rock, Paper or Scissors</h1>
+    <div class="score">
+        <h2>Score</h2>
+        <p>Your Score: <span class="h-score">0</span></p>
+        <p>Computer Score: <span class="c-score">0</span></p>
+    </div>
+<div class="main">
+    <div class="game-area">
+        <div class="picks ">
+            <img class="rock options" src="./media/rock.png" alt="">
+            <img class="paper options" src="./media/paper.png" alt="">
+            <img class="scissors options" src="./media/scissor.png" alt="">
+        </div>
+    </div> 
+    <p class="main-desc">Choose Rock, Paper or Scissors</p> 
+</div>
+<div class="main-popUp hidden">
+    <div class="popUp ">
+        <img class="rock-pop-up option-popups" src="./media/rock.png" alt="">
+        <img class="paper-pop-up option-popups" src="./media/paper.png" alt="">
+        <img class="scissors-pop-up option-popups" src="./media/scissor.png" alt="">
+        <div class="versus">VS</div>
+        <img class="computer-pop-up option-popups" src="" alt="">
+    </div>
+    <p class="main-desc">Click anywhere below Score to play again</p>
+    <img class="reset" src="./media/reset.png" alt="">
+
+</div>
+<div class="winner hidden">
+    <div class="winner-text">This is the winner text</div>
+    <div class="restart"><img src="./media/reset.png" alt=""></div>
+</div>
+
+<!-- <div class="overlay hidden"></div> -->
+
+<script src="./script.js"></script>
+
+</body>
+
